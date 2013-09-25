@@ -1,0 +1,37 @@
+{
+  "name": "soundcloud-badge",
+  "version": "0.0.0",
+  "description": "A SoundCloud 'now-playing' badge that you can just drop into browserify demos",
+  "main": "index.js",
+  "dependencies": {
+    "brfs": "~0.0.8",
+    "soundcloud-resolve": "~0.0.0",
+    "google-fonts": "~0.0.0",
+    "minstache": "~1.1.0",
+    "insert-css": "~0.0.0"
+  },
+  "browserify": {
+    "transform": "brfs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "beefy demo.js:bundle.js --live -- -t brfs",
+    "prepublish": "browserify -t brfs demo.js > bundle.js"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/soundcloud-badge.git"
+  },
+  "keywords": [
+    "soundcloud",
+    "music",
+    "quick",
+    "easy",
+    "credit"
+  ],
+  "bugs": {
+    "url": "https://github.com/hughsk/soundcloud-badge/issues"
+  }
+}
