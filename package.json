@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-badge",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A SoundCloud 'now-playing' badge that you can just drop into browserify demos",
   "main": "index.js",
   "dependencies": {
