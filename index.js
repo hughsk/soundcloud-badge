@@ -5,8 +5,8 @@ var insert = require('insert-css')
 var fs = require('fs')
 
 var icons = {
-    black: 'http://developers.soundcloud.com/assets/logo_black.png'
-  , white: 'http://developers.soundcloud.com/assets/logo_white.png'
+    black: 'https://developers.soundcloud.com/assets/logo_black.png'
+  , white: 'https://developers.soundcloud.com/assets/logo_white.png'
 }
 
 module.exports = badge
